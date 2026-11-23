@@ -96,7 +96,10 @@ Click **"🔄 Update"** at the top right to check for component updates (yt-dlp,
 - Updates take effect after a restart. If something is still running, or if you choose "No", they are applied automatically the next time you start the tool.
 - If a site changes and downloads stop working, try updating first.
 
-The tool itself (the exe) does not update automatically. When a new version is released, replace the exe (your settings and components are kept).
+The tool itself (the exe) does not update automatically and does not notify you of new versions (so that the tool never connects anywhere on its own for this). When a new version is released, replace the exe (your settings and components are kept).
+
+- When "🔄 Update" shows "All components are up to date", choose "Yes" to open the distribution page in your browser, where you can check for and download the latest version.
+- If you have a GitHub account, set "Watch" → "Custom" → "Releases" on the [distribution page](https://github.com/s-zak-software/MPEG-DL-TOOL) to get an email from GitHub when a new version is released.
 
 ## Troubleshooting
 
