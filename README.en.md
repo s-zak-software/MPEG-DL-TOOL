@@ -5,6 +5,8 @@
 A Windows tool that finds the videos on a web page and downloads them.
 Besides YouTube and other supported sites, it can also find players embedded from other pages (iframes) and videos that JavaScript loads later (HLS/DASH streams).
 
+![MPEG-DL-TOOL window (enter a URL and click "Find Videos"; the videos found are listed and downloaded)](screenshot_en.png)
+
 > [!IMPORTANT]
 > **Please read before use**
 > - Only download videos **that you own the rights to, that the rights holder has permitted, or that the site's terms of service allow you to download**.
