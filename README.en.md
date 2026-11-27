@@ -75,6 +75,8 @@ For video pages on YouTube and other supported sites, you can also use "Download
 - When **"Automatically download found videos"** is checked (on by default), the most likely video (the one already checked in the list) is downloaded automatically when analysis finishes. Videos that are already downloaded or queued are skipped.
 - Right-click a row to cancel, retry, rename, or remove just that row. "Cancel All" stops everything, including pages waiting to be analyzed.
 - "Clear Finished" removes all finished rows from the list.
+- "🗑 Clear All" empties the list, except rows in progress or waiting (saved files are not deleted).
+- Right-click a row and choose "Remove all rows not downloaded" to remove candidates that were found but not downloaded. You can also select rows and press the Delete key (hold Ctrl or Shift while clicking to select several).
 
 ### Formats
 
@@ -108,6 +110,7 @@ The tool itself (the exe) does not update automatically and does not notify you 
 - **Downloads stopped working** … Update the components with "🔄 Update".
 - **"Access denied (403)" is shown** … Play the video in manual mode, then try again.
 - **No video is found** … Try manual mode. Videos protected by DRM cannot be found.
+- **"Login is required" is shown** (for example, sensitive posts or protected accounts on X) … Log in and play the video in the browser opened by manual mode. The login is stored in the browser used only by this tool, and is also used by automatic analysis from then on. If you search without logging in, unrelated videos (such as recommendations) may appear as candidates.
 - **Something is not working right** … Delete the `%LOCALAPPDATA%\MPEG-DL-TOOL\lib` folder and start the tool again to reinstall the components.
 - Unexpected errors are recorded in `%LOCALAPPDATA%\MPEG-DL-TOOL\error.log`. Attaching it to your inquiry makes it easier to find the cause (it may contain URLs of pages you visited).
 
